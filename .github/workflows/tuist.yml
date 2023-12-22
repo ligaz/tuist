@@ -70,7 +70,7 @@ jobs:
 
   cache-warm-silicon:
     name: Cache warm with latest Tuist on Silicon
-    runs-on: flyci-macos-large-latest-m1-xlarge
+    runs-on: flyci-macos-large-latest-m1
     steps:
       - uses: actions/checkout@v3
       - uses: asdf-vm/actions/install@v2
