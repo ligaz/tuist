@@ -17,6 +17,7 @@ on:
       - fixtures/**
       - .package.resolved
       - .github/workflows/tuist.yml
+  workflow_dispatch:
 
 concurrency:
   group: tuist-${{ github.head_ref }}
